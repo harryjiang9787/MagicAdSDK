@@ -1,0 +1,6 @@
+framework module MagicAdSDK {
+  umbrella header "MagicAdSDK.h"
+  export *
+
+  module * { export * }
+}
