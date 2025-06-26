@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Magic' => 'Magic' }
 
-  s.homepage         = ''
-  s.source           = { :git => '', :tag => s.version.to_s }
+  s.homepage         = 'https://github.com/harryjiang9787/MagicAdSDK.git'
+  s.source           = { :git => 'https://github.com/harryjiang9787/MagicAdSDK.git', :tag => s.version.to_s }
   s.platform         = :ios, "10.0"  
   s.frameworks = 'AdSupport', 'CoreGraphics', 'UIKit', 'Foundation','AVFoundation', 'CoreTelephony', 'SystemConfiguration','WebKit','ImageIO','CoreFoundation','CoreLocation'
   s.libraries  = 'c++','sqlite3'
