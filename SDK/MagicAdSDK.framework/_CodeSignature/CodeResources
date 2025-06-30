@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/MagicAdManager.h</key>
 		<data>
-		pAOjYyh7MU7a5EyrnNFh0cKBKYI=
+		Z6SPWFk88nDxwAPWPMgg7D+zdKw=
 		</data>
 		<key>Headers/MagicAdSDK.h</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/MagicSplashCustomExt.h</key>
 		<data>
-		pNDaLhXgi1vd9rkPAa8rD71p8OI=
+		e4lb4GxxWiX9JQcKxF0UVN0BDYA=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -86,11 +86,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pAOjYyh7MU7a5EyrnNFh0cKBKYI=
+			Z6SPWFk88nDxwAPWPMgg7D+zdKw=
 			</data>
 			<key>hash2</key>
 			<data>
-			xBtKKnUsIsarhdr6VhHMJezWVId9R+9TaQY564TyA2c=
+			11GHjoEFXhois44XZuBzCMISA39sChzi8NSW/gObBKk=
 			</data>
 		</dict>
 		<key>Headers/MagicAdSDK.h</key>
@@ -207,11 +207,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pNDaLhXgi1vd9rkPAa8rD71p8OI=
+			e4lb4GxxWiX9JQcKxF0UVN0BDYA=
 			</data>
 			<key>hash2</key>
 			<data>
-			vPuiKMLcmMSpm0pC2bTD6bcCROQU3niYGcdplk6U2xc=
+			/E6THlqlfjVY7QLJLsdHKlFnsPoD8677zj9QZPfFX4Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

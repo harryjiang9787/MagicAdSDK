@@ -7,6 +7,7 @@
 
 #ifndef MagicSplashCustomExt_h
 #define MagicSplashCustomExt_h
+#import <Foundation/Foundation.h>
 /**
  超时时间，单位秒，默认3秒
  */

@@ -27,12 +27,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)initWithAppId:(NSString *)appId;
 
 /**
- 开启debug模式
- 默认关闭
- **/
-+ (void)setDebug:(BOOL)isDebug;
-
-/**
  获取SDK版本号
  */
 + (NSString *)getSDKVersion;
