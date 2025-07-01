@@ -6,7 +6,7 @@
 	<dict>
 		<key>.DS_Store</key>
 		<data>
-		TNPxew8ap+nXoAXndJn0C623DBk=
+		uUDf8q7BKdB+/LEOHA1KYppuWwU=
 		</data>
 		<key>Headers/MagicAdError.h</key>
 		<data>
@@ -63,6 +63,10 @@
 		<key>Info.plist</key>
 		<data>
 		FBYeDCLP0uapWo0xZoyHPZgERBg=
+		</data>
+		<key>LuaViewSDK-Info.plist</key>
+		<data>
+		BQYuLMDKtFFGDBjVXxwsJo61rVw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -216,6 +220,17 @@
 			<key>hash2</key>
 			<data>
 			/E6THlqlfjVY7QLJLsdHKlFnsPoD8677zj9QZPfFX4Q=
+			</data>
+		</dict>
+		<key>LuaViewSDK-Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BQYuLMDKtFFGDBjVXxwsJo61rVw=
+			</data>
+			<key>hash2</key>
+			<data>
+			3HPItWR02jHgkEfHcQpymppYKFB/0IB1ATfpS/jy9c0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
