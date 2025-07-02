@@ -38,6 +38,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)setWXAppId:(NSString *)appid universalLink:(NSString *)universalLink;
 
+
+/**
+ 设置个性化广告推荐
+ **/
++ (void)setPersonalizedAdState:(BOOL)state;
+
 @end
 
 NS_ASSUME_NONNULL_END
