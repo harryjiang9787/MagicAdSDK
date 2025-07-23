@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		ctnPgquiwcEAaLULS/O0YYuU6Yc=
+		</data>
 		<key>Headers/MagicAdError.h</key>
 		<data>
 		Ruwc6MrYeq4woGzDZu6r6FA+JmI=
@@ -67,6 +71,10 @@
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
 		XKF4zsa3BRpp39pcAsR3WU6MdZg=
+		</data>
+		<key>debug.lua</key>
+		<data>
+		sRimHUE2JRDRUAAas3kjm5nZQwM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -234,6 +242,17 @@
 			<key>hash2</key>
 			<data>
 			tB2JopxMzNuTzEpCuFm1z2P8JqJprLZ3Nu/MSzjorCM=
+			</data>
+		</dict>
+		<key>debug.lua</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sRimHUE2JRDRUAAas3kjm5nZQwM=
+			</data>
+			<key>hash2</key>
+			<data>
+			YRSEm3idygnpHBpCl4JtTVc28RYiZcIWFYQLBnKjZcs=
 			</data>
 		</dict>
 	</dict>
