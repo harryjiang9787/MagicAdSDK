@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MagicAdSDK'
-  s.version          = '0.0.9'
+  s.version          = '0.0.10'
   s.summary          = 'MagicAdSDK'
   s.description      = <<-DESC
   杰蛙广告SDK;
@@ -23,9 +23,9 @@ Pod::Spec.new do |s|
   s.frameworks = 'AdSupport', 'CoreGraphics', 'UIKit', 'Foundation','AVFoundation', 'CoreTelephony', 'SystemConfiguration','WebKit','ImageIO','CoreFoundation','CoreLocation'
   s.libraries  = 'c++','sqlite3'
   
-  s.vendored_frameworks = 'SDK/MagicAdSDK.framework'
+  s.vendored_frameworks = 'SDK/MagicAdSDK.xframework'
   s.resources = ['SDK/*.{bundle}']
-  valid_archs = ['armv7', 'armv7s', 'x86_64', 'arm64']
+  valid_archs = ['x86_64', 'arm64']
   s.xcconfig = {
     'VALID_ARCHS' =>  valid_archs.join(' '),
   }
