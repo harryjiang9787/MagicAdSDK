@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   s.static_framework = true
   
   s.vendored_frameworks = 'SDK/*.{xcframework,framework}'
+  s.resources = ['SDK/*.{bundle}']
 
   s.xcconfig = {
     'ENABLE_BITCODE' => 'NO', 
