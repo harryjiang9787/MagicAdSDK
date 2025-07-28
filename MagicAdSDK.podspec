@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MagicAdSDK'
-  s.version          = '0.0.12'
+  s.version          = '0.0.13'
   s.summary          = 'MagicAdSDK'
   s.description      = <<-DESC
   杰蛙广告SDK;
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   s.static_framework = true
   
   s.vendored_frameworks = 'SDK/*.{xcframework,framework}'
+  s.preserve_paths = "SDK/*.xcframework/**/dSYMs/*.dSYM"
   #s.resources = ['SDK/*.{bundle}']
   s.xcconfig = {
     'ENABLE_BITCODE' => 'NO', 
