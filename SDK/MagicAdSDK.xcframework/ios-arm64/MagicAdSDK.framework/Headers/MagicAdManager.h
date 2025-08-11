@@ -44,6 +44,11 @@ NS_ASSUME_NONNULL_BEGIN
  **/
 + (void)setPersonalizedAdState:(BOOL)state;
 
+/**
+ 重置广告标识符
+ */
++ (void)resetIDFA:(NSString *)idfa;
+
 @end
 
 NS_ASSUME_NONNULL_END
