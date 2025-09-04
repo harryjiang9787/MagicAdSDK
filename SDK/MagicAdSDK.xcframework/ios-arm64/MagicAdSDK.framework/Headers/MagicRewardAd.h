@@ -41,6 +41,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 //广告数据回调
 -(void)onMgcRewardAdData:(MagicRewardAd *)rewardAd data:(NSDictionary *)data;
+
+//视频广告播放开始
+-(void)onMgcRewardAdVideoStart:(MagicRewardAd *)rewardAd;
+
+//视频广告播放结束
+-(void)onMgcRewardAdVideoEnd:(MagicRewardAd *)rewardAd;
+
+//视频广告播放报错
+-(void)onMgcRewardAdVideoError:(MagicRewardAd *)rewardAd code:(NSString *)code msg:(NSString *)msg;
 @end
 
 @interface MagicRewardAd : NSObject

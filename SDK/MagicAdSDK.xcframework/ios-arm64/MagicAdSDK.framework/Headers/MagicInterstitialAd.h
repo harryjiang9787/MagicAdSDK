@@ -41,6 +41,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 //广告播放完成
 -(void)onMgcInterstitialAdDidFinish:(MagicInterstitialAd *)interstitialAd;
+
+//视频广告播放开始
+-(void)onMgcInterstitialAdVideoStart:(MagicInterstitialAd *)interstitialAd;
+
+//视频广告播放结束
+-(void)onMgcInterstitialAdVideoEnd:(MagicInterstitialAd *)interstitialAd;
+
+//视频广告播放报错
+-(void)onMgcInterstitialAdVideoError:(MagicInterstitialAd *)interstitialAd code:(NSString *)code msg:(NSString *)msg;
 @end
 
 @interface MagicInterstitialAd : NSObject

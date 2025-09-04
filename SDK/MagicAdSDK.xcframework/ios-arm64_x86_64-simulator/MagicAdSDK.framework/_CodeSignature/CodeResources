@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/MagicInterstitialAd.h</key>
 		<data>
-		MZlYonXmgNdR1DbCw2Aax/HrZVk=
+		mnpAsoS3nLlSpfzsAIrT/6b4Im8=
 		</data>
 		<key>Headers/MagicInterstitialCustomExt.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/MagicRewardAd.h</key>
 		<data>
-		jwSDoFMNEEUMvVMr2Gb7G7SJbYw=
+		TWx5YvPVhse4fgqHdIsHq/XZsq8=
 		</data>
 		<key>Headers/MagicRewardCustomExt.h</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FBYeDCLP0uapWo0xZoyHPZgERBg=
+		XDxGFelIo91E0yhaLoLz4kDFMN8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -156,11 +156,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MZlYonXmgNdR1DbCw2Aax/HrZVk=
+			mnpAsoS3nLlSpfzsAIrT/6b4Im8=
 			</data>
 			<key>hash2</key>
 			<data>
-			/0/CjQ23to3EwUMjXJd87O5aoF9Y5Jvy7sXmCh/Qzag=
+			0Gde5L4gUfOAFR8DezQmcnzExiMCQO1yEXaHNJoiwUQ=
 			</data>
 		</dict>
 		<key>Headers/MagicInterstitialCustomExt.h</key>
@@ -178,11 +178,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jwSDoFMNEEUMvVMr2Gb7G7SJbYw=
+			TWx5YvPVhse4fgqHdIsHq/XZsq8=
 			</data>
 			<key>hash2</key>
 			<data>
-			k35JvuOJvYMODPQwvK6Ci2ftAi9e7crGsOipzvffESM=
+			jPX9BH7TXs1ug4K3CIjcYQOnuHwsx1JyAcbO3i1vnTQ=
 			</data>
 		</dict>
 		<key>Headers/MagicRewardCustomExt.h</key>
