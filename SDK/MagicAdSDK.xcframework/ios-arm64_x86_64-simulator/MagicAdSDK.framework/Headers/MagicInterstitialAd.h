@@ -70,9 +70,14 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)loadAd;
 
 /**
- 展示
+ 当前控制器添加展示
  */
 - (void)show;
+
+/**
+ preset new Controller展示
+ */
+- (void)presentShow;
 
 /**
  获取广告视图

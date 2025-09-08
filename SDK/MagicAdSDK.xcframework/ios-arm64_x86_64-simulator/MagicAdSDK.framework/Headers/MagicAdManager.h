@@ -49,6 +49,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)resetIDFA:(NSString *)idfa;
 
+/**
+ 设置请求测试环境
+ */
++ (void)setTestEnvironment:(BOOL) isTest;
+
 @end
 
 NS_ASSUME_NONNULL_END
