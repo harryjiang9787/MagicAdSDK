@@ -4,21 +4,25 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/MagicAdDelegate.h</key>
+		<data>
+		i6wHSZ54I96sdXHvgw4SbH0bJqY=
+		</data>
 		<key>Headers/MagicAdError.h</key>
 		<data>
 		Ruwc6MrYeq4woGzDZu6r6FA+JmI=
 		</data>
 		<key>Headers/MagicAdManager.h</key>
 		<data>
-		fMhj1zjBzCIIlrkRH4qZ1q0egak=
+		91Pz9KytAK8w0jr2qG17o21lSo0=
 		</data>
 		<key>Headers/MagicAdSDK.h</key>
 		<data>
-		iO3UFI4rgHILcNKx86mFPg642gs=
+		OzTGJ6N0mBDSTdu7OMDRqJvFEHc=
 		</data>
 		<key>Headers/MagicBannerAd.h</key>
 		<data>
-		uIMW4y76wO18JzerVS7ZyBm/AxE=
+		91NCwwcBD3Poh2d7QfE8EXHo8g8=
 		</data>
 		<key>Headers/MagicBannerCustomExt.h</key>
 		<data>
@@ -26,7 +30,7 @@
 		</data>
 		<key>Headers/MagicFeedAd.h</key>
 		<data>
-		tkMi3EAiH+r0j5Cl8XopbG8iF/s=
+		1cxbZHDkHcJ/PHvrWbh57o9mJhM=
 		</data>
 		<key>Headers/MagicFeedCustomExt.h</key>
 		<data>
@@ -34,7 +38,7 @@
 		</data>
 		<key>Headers/MagicInterstitialAd.h</key>
 		<data>
-		ct6uGEEn/hBCFb3qyXZn8vSkpL8=
+		D6QFD06j9aIaKJnH8d1nLCsFr0A=
 		</data>
 		<key>Headers/MagicInterstitialCustomExt.h</key>
 		<data>
@@ -42,7 +46,7 @@
 		</data>
 		<key>Headers/MagicRewardAd.h</key>
 		<data>
-		OGahNFtA4L0nE+hPB0QdHgZPFa4=
+		tBudpK96jpbAu+djdHRv140J1UY=
 		</data>
 		<key>Headers/MagicRewardCustomExt.h</key>
 		<data>
@@ -50,7 +54,7 @@
 		</data>
 		<key>Headers/MagicSplashAd.h</key>
 		<data>
-		fd5wQILqzIuX4elh1p7Bx5vzp7Y=
+		ejKA2rM6GMjzJ5tiuEENvRd2xv8=
 		</data>
 		<key>Headers/MagicSplashCustomExt.h</key>
 		<data>
@@ -58,7 +62,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XDxGFelIo91E0yhaLoLz4kDFMN8=
+		jTUhHV4hppbfqTEbmDrIqwg0CB0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,6 +79,17 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/MagicAdDelegate.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			i6wHSZ54I96sdXHvgw4SbH0bJqY=
+			</data>
+			<key>hash2</key>
+			<data>
+			d9D3OgKHfk15rt2ndr60lqCZpYGUN9p/S+zUCe/zUXk=
+			</data>
+		</dict>
 		<key>Headers/MagicAdError.h</key>
 		<dict>
 			<key>hash</key>
@@ -90,33 +105,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fMhj1zjBzCIIlrkRH4qZ1q0egak=
+			91Pz9KytAK8w0jr2qG17o21lSo0=
 			</data>
 			<key>hash2</key>
 			<data>
-			cWSa+pJTz5obnFQAjw/CHjuQk83D/tZ4iVPY8TYh9oM=
+			mHXSDVpT1KzD5K4p9+clGSvQBVdMGPHYd3nXQtpqq1s=
 			</data>
 		</dict>
 		<key>Headers/MagicAdSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iO3UFI4rgHILcNKx86mFPg642gs=
+			OzTGJ6N0mBDSTdu7OMDRqJvFEHc=
 			</data>
 			<key>hash2</key>
 			<data>
-			kkZ9XglhxoOsiQxWOGaWr360LhZTWS5sq1M0xtylyXs=
+			VjkqQ6AsYvNfnGcOc3ZoZJbyc9LVGL7XcLXBB5TxPQo=
 			</data>
 		</dict>
 		<key>Headers/MagicBannerAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uIMW4y76wO18JzerVS7ZyBm/AxE=
+			91NCwwcBD3Poh2d7QfE8EXHo8g8=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZwM1ScjtSMKF5GKGy4e3OiyuVd/4b88tkLIV6v8DNlE=
+			bz1ilODdCcC2jfSekKVJagMYC76jycQv9mcF+TVJHW0=
 			</data>
 		</dict>
 		<key>Headers/MagicBannerCustomExt.h</key>
@@ -134,11 +149,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tkMi3EAiH+r0j5Cl8XopbG8iF/s=
+			1cxbZHDkHcJ/PHvrWbh57o9mJhM=
 			</data>
 			<key>hash2</key>
 			<data>
-			LypMELUFGynxVXixnEzZ36gHEyX7hOH5FZQ4lQ8OR5Q=
+			qC5vk53WsB4iWK0GmWhfJaw8C1WzpJNmwhePt0XDUcA=
 			</data>
 		</dict>
 		<key>Headers/MagicFeedCustomExt.h</key>
@@ -156,11 +171,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ct6uGEEn/hBCFb3qyXZn8vSkpL8=
+			D6QFD06j9aIaKJnH8d1nLCsFr0A=
 			</data>
 			<key>hash2</key>
 			<data>
-			m2G8hp2kTcWRwJy9BYFobNcQ1KLdPIX+v3dwQ5GZsPw=
+			yZFYqiKDzA2XnIcmiOwNbXaX6Hsz1ZVOG+VuVZSKTsk=
 			</data>
 		</dict>
 		<key>Headers/MagicInterstitialCustomExt.h</key>
@@ -178,11 +193,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OGahNFtA4L0nE+hPB0QdHgZPFa4=
+			tBudpK96jpbAu+djdHRv140J1UY=
 			</data>
 			<key>hash2</key>
 			<data>
-			GPI+dxRn4jMXpFgaGP37e7xpF2IXLnWvD36B3923juI=
+			Zj7RP069MjgxNZZPKdzcPp04Maee+3Wc/l94rhXzyUk=
 			</data>
 		</dict>
 		<key>Headers/MagicRewardCustomExt.h</key>
@@ -200,11 +215,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fd5wQILqzIuX4elh1p7Bx5vzp7Y=
+			ejKA2rM6GMjzJ5tiuEENvRd2xv8=
 			</data>
 			<key>hash2</key>
 			<data>
-			r/dsIgmwy1F3F8LNI6hhdA++C1D/N0TZWMoRDYAk70A=
+			hdE/Gs9yaE/H/3f847GAvhIKqk/XXrsneTl6LVxFvCY=
 			</data>
 		</dict>
 		<key>Headers/MagicSplashCustomExt.h</key>

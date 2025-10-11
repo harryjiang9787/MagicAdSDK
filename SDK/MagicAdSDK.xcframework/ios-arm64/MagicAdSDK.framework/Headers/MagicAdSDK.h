@@ -19,6 +19,7 @@
 #import <MagicAdSDK/MagicSplashAd.h>
 #import <MagicAdSDK/MagicSplashCustomExt.h>
 #import <MagicAdSDK/MagicAdError.h>
+#import <MagicAdSDK/MagicAdDelegate.h>
 
 #define MagicMobAdDEPRECATED_MSG(instead) DEPRECATED_MSG_ATTRIBUTE(instead)
 #define MagicMobAdDEPRECATED DEPRECATED_ATTRIBUTE

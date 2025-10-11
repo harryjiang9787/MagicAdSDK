@@ -9,22 +9,16 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <MagicAdSDK/MagicAdError.h>
+#import <MagicAdSDK/MagicAdDelegate.h>
 
 NS_ASSUME_NONNULL_BEGIN
-
-@protocol MagicAdCacheDelegate <NSObject>
-@optional
-//广告缓存加载，可设置1-4条，如果设置数和缓存总数之和超过4，那么新缓存的数量为4减去已缓存的数量
--(void)onMgcAdCacheLoaded:(NSInteger)succCount;
--(void)onMgcAdCacheError:(MagicAdError *)err;
-@end
 
 @interface MagicAdManager : NSObject
 
 /**
  初始化
  **/
-+ (void)initWithAppId:(NSString *)appId;
++ (void)initWithAppId:(NSString *)appId delegate:(id<MagicAdInitDelegate>)delegate;
 
 /**
  获取SDK版本号

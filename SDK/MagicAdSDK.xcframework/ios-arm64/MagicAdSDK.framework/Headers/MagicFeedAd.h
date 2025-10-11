@@ -8,12 +8,11 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <MagicAdSDK/MagicAdError.h>
+#import <MagicAdSDK/MagicAdDelegate.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @class MagicFeedAd;
-
-#define MAGIC_AD_FEED_CACHE_COUNT 4
 
 @protocol MagicFeedAdDelegate <NSObject>
 @optional
@@ -40,11 +39,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 //广告数据回调
 -(void)onMgcFeedAdData:(MagicFeedAd *)feedAd data:(NSDictionary *)data;
-
-//广告缓存预加载，可设置1-4条，如果设置数和缓存总数之和超过4，那么新缓存的数量为4减去已缓存的数量
--(void)onMgcFeedAdCacheLoaded:(MagicFeedAd *)feedAd succCount:(NSInteger)succCount;
-//广告缓存预加载失败
--(void)onMgcFeedAdCacheError:(MagicFeedAd *)feedAd error:(MagicAdError *)err;
 @end
 
 @interface MagicFeedAd : NSObject
@@ -54,12 +48,12 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  初始化
  **/
-- (instancetype)initWithAdId:(NSString*)tagId size:(CGSize)size controller:(UIViewController *)controller delegate:(id<MagicFeedAdDelegate>)delegate;
+- (instancetype)initWithAdId:(NSString*)tagId size:(CGSize)size controller:(UIViewController *)controller delegate:(id<MagicFeedAdDelegate> _Nullable)delegate;
 
 /**
  初始化
  **/
-- (instancetype)initWithAdId:(NSString*)tagId size:(CGSize)size extra:(NSDictionary<NSString *,NSString *> *)extra controller:(UIViewController *)controller delegate:(id<MagicFeedAdDelegate>)delegate;
+- (instancetype)initWithAdId:(NSString*)tagId size:(CGSize)size extra:(NSDictionary<NSString *,NSString *> *)extra controller:(UIViewController *)controller delegate:(id<MagicFeedAdDelegate> _Nullable)delegate;
 
 /**
  加载广告
@@ -130,7 +124,7 @@ NS_ASSUME_NONNULL_BEGIN
  增加缓存
  广告缓存加载，可设置1-4条，如果设置数和缓存总数之和超过4，那么新缓存的数量为4减去已缓存的数量
  */
-- (void) loadCache:(NSInteger)count;
+- (void) loadCache:(NSInteger)count delegate:(id<MagicAdLoadDelegate> _Nullable)delegate;
 @end
 
 NS_ASSUME_NONNULL_END

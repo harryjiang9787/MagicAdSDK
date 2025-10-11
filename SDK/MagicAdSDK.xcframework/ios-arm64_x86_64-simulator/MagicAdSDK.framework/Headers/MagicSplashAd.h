@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <MagicAdSDK/MagicAdError.h>
 #import <UIKit/UIKit.h>
+#import <MagicAdSDK/MagicAdDelegate.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -48,15 +49,17 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MagicSplashAd : NSObject
 
-/**
- 初始化
- **/
-- (instancetype)initWithAdId:(NSString*)tagId size:(CGSize)size controller:(UIViewController *)controller delegate:(id<MagicSplashAdDelegate>)delegate;
+@property (nonatomic, assign)BOOL disableCache;
 
 /**
  初始化
  **/
-- (instancetype)initWithAdId:(NSString*)tagId size:(CGSize)size extra:(NSDictionary<NSString *,NSString *> *)extra controller:(UIViewController *)controller delegate:(id<MagicSplashAdDelegate>)delegate;
+- (instancetype)initWithAdId:(NSString*)tagId size:(CGSize)size controller:(UIViewController *)controller delegate:(id<MagicSplashAdDelegate> _Nullable)delegate;
+
+/**
+ 初始化
+ **/
+- (instancetype)initWithAdId:(NSString*)tagId size:(CGSize)size extra:(NSDictionary<NSString *,NSString *> *)extra controller:(UIViewController *)controller delegate:(id<MagicSplashAdDelegate> _Nullable)delegate;
 
 /**
  加载广告
@@ -102,6 +105,17 @@ NS_ASSUME_NONNULL_BEGIN
  广告是否超时
  */
 - (BOOL) isDataTimeout;
+
+/**
+ 有效缓存条数
+ */
+- (NSInteger) hasCache;
+
+/**
+ 增加缓存
+ 广告缓存加载，可设置1-4条，如果设置数和缓存总数之和超过4，那么新缓存的数量为4减去已缓存的数量
+ */
+- (void) loadCache:(NSInteger)count delegate:(id<MagicAdLoadDelegate> _Nullable)delegate;
 
 @end
 
