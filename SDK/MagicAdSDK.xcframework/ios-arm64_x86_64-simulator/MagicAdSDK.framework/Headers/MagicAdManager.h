@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  初始化
  **/
-+ (void)initWithAppId:(NSString *)appId delegate:(id<MagicAdInitDelegate>)delegate;
++ (void)initWithAppId:(NSString *)appId delegate:(id<MagicAdInitDelegate> _Nullable)delegate;
 
 /**
  获取SDK版本号

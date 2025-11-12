@@ -48,12 +48,12 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  初始化
  **/
-- (instancetype)initWithAdId:(NSString*)tagId size:(CGSize)size controller:(UIViewController *)controller delegate:(id<MagicFeedAdDelegate> _Nullable)delegate;
+- (instancetype)initWithAdId:(NSString*)tagId size:(CGSize)size controller:(UIViewController * _Nullable)controller delegate:(id<MagicFeedAdDelegate> _Nullable)delegate;
 
 /**
  初始化
  **/
-- (instancetype)initWithAdId:(NSString*)tagId size:(CGSize)size extra:(NSDictionary<NSString *,NSString *> *)extra controller:(UIViewController *)controller delegate:(id<MagicFeedAdDelegate> _Nullable)delegate;
+- (instancetype)initWithAdId:(NSString*)tagId size:(CGSize)size extra:(NSDictionary<NSString *,NSString *> *)extra controller:(UIViewController * _Nullable)controller delegate:(id<MagicFeedAdDelegate> _Nullable)delegate;
 
 /**
  加载广告
