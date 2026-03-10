@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/MagicAdSDK.h</key>
 		<data>
-		OzTGJ6N0mBDSTdu7OMDRqJvFEHc=
+		EaXlN79jhPqlAn/3GRP/PburkSo=
 		</data>
 		<key>Headers/MagicBannerAd.h</key>
 		<data>
@@ -52,6 +52,14 @@
 		<data>
 		4bb9cXF4RnS/IdPOQssOV4o6zEc=
 		</data>
+		<key>Headers/MagicSelfRenderFeedAd.h</key>
+		<data>
+		7XayQtST0wvc3xWovkf7iN7bCDk=
+		</data>
+		<key>Headers/MagicSelfRenderFeedData.h</key>
+		<data>
+		3twmhrTgmBNKryK9K2H1s9qCYdQ=
+		</data>
 		<key>Headers/MagicSplashAd.h</key>
 		<data>
 		Gx4AsiQ2zRayhZFmFtZEDPQUMpc=
@@ -62,7 +70,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/82N5YeGEPYr3pDn8B6IimLWnow=
+		gz4XFL4t/q0fgcu955fMeHu6CHU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -116,11 +124,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OzTGJ6N0mBDSTdu7OMDRqJvFEHc=
+			EaXlN79jhPqlAn/3GRP/PburkSo=
 			</data>
 			<key>hash2</key>
 			<data>
-			VjkqQ6AsYvNfnGcOc3ZoZJbyc9LVGL7XcLXBB5TxPQo=
+			9Xt7Ji88iEfTjDLkNfe6wneMIVZURXL46BN1Vadh9bQ=
 			</data>
 		</dict>
 		<key>Headers/MagicBannerAd.h</key>
@@ -209,6 +217,28 @@
 			<key>hash2</key>
 			<data>
 			qDMy+9m61xyIhcfe+9Ol8KvoiT6MDIvXIhWHCFxoWBs=
+			</data>
+		</dict>
+		<key>Headers/MagicSelfRenderFeedAd.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7XayQtST0wvc3xWovkf7iN7bCDk=
+			</data>
+			<key>hash2</key>
+			<data>
+			saQU50wMrnp3cLgMzsbqlp57whWg8cf/mgOsqzpRwes=
+			</data>
+		</dict>
+		<key>Headers/MagicSelfRenderFeedData.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3twmhrTgmBNKryK9K2H1s9qCYdQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			KUtaEqV3dFwr2yhRXaqfFO9263nNlCtAeFpYfZTo4Fo=
 			</data>
 		</dict>
 		<key>Headers/MagicSplashAd.h</key>
