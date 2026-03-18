@@ -45,6 +45,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 //广告数据回调
 -(void)onMgcSplashAdData:(MagicSplashAd *)splashAd data:(NSDictionary *)data;
+
+//广告内跳落地页打开回调
+-(void)onMgcSplashAdLandingPageStart:(MagicSplashAd *)splashAd;
+
+//广告内跳落地页关闭回调
+-(void)onMgcSplashAdLandingPageClose:(MagicSplashAd *)splashAd;
 @end
 
 @interface MagicSplashAd : NSObject
@@ -70,6 +76,21 @@ NS_ASSUME_NONNULL_BEGIN
  展示
  */
 - (void)show;
+
+/**
+ 展示
+ */
+- (void)show:(UIViewController *)controller;
+
+/**
+ 重设ViewController
+ */
+- (void)resetViewController:(UIViewController *)controller;
+
+/**
+ 重设代理
+ */
+- (void)resetDelegate:(id<MagicSplashAdDelegate> _Nullable)delegate;
 
 /**
  获取广告视图

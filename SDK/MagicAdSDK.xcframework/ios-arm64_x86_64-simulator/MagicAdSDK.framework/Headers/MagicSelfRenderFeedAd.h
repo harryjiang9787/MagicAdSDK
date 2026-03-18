@@ -70,6 +70,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSInteger) hasCache;
 
 /**
+ 重设ViewController
+ */
+- (void)resetViewController:(UIViewController *)controller;
+
+/**
  销毁
  */
 - (void)destroy;

@@ -60,6 +60,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)onSelfRenderFeedAdExposure:(MagicSelfRenderFeedAd *)feedAd confirm:(BOOL)confirm;
 
+//广告内跳落地页打开回调
+-(void)onSelfRenderFeedAdLandingPageStart:(MagicSelfRenderFeedAd *)feedAd;
+
+//广告内跳落地页关闭回调
+-(void)onSelfRenderFeedAdLandingPageClose:(MagicSelfRenderFeedAd *)feedAd;
+
 @end
 
 @protocol MagicSelfRenderFeedInsideDelegate <NSObject>

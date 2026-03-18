@@ -39,6 +39,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 //广告数据回调
 -(void)onMgcFeedAdData:(MagicFeedAd *)feedAd data:(NSDictionary *)data;
+
+//广告内跳落地页打开回调
+-(void)onMgcFeedAdLandingPageStart:(MagicFeedAd *)feedAd;
+
+//广告内跳落地页关闭回调
+-(void)onMgcFeedAdLandingPageClose:(MagicFeedAd *)feedAd;
 @end
 
 @interface MagicFeedAd : NSObject
@@ -65,10 +71,21 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (UIView *)getView;
 
+
 /**
  是否是视频广告
  */
 - (BOOL)isVideo;
+
+/**
+ 重设ViewController
+ */
+- (void)resetViewController:(UIViewController *)controller;
+
+/**
+ 重设代理
+ */
+- (void)resetDelegate:(id<MagicFeedAdDelegate> _Nullable)delegate;
 
 /**
  视频是否正在播放

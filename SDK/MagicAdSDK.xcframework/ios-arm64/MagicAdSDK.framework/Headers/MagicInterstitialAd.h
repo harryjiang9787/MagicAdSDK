@@ -51,6 +51,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 //视频广告播放报错
 -(void)onMgcInterstitialAdVideoError:(MagicInterstitialAd *)interstitialAd code:(NSString *)code msg:(NSString *)msg;
+
+//广告内跳落地页打开回调
+-(void)onMgcInterstitialAdLandingPageStart:(MagicInterstitialAd *)interstitialAd;
+
+//广告内跳落地页关闭回调
+-(void)onMgcInterstitialAdLandingPageClose:(MagicInterstitialAd *)interstitialAd;
 @end
 
 @interface MagicInterstitialAd : NSObject
@@ -83,9 +89,29 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)presentShow;
 
 /**
+ 当前控制器添加展示
+ */
+- (void)show:(UIViewController *)controller;
+
+/**
+ preset new Controller展示
+ */
+- (void)presentShow:(UIViewController *)controller;
+
+/**
  获取广告视图
  */
 - (UIView *)getView;
+
+/**
+ 重设ViewController
+ */
+- (void)resetViewController:(UIViewController *)controller;
+
+/**
+ 重设代理
+ */
+- (void)resetDelegate:(id<MagicInterstitialAdDelegate> _Nullable)delegate;
 
 /**
  销毁广告

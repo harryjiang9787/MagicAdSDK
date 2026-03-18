@@ -51,6 +51,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 //视频广告播放报错
 -(void)onMgcRewardAdVideoError:(MagicRewardAd *)rewardAd code:(NSString *)code msg:(NSString *)msg;
+
+//广告内跳落地页打开回调
+-(void)onMgcRewardAdLandingPageStart:(MagicRewardAd *)rewardAd;
+
+//广告内跳落地页关闭回调
+-(void)onMgcRewardAdLandingPageClose:(MagicRewardAd *)rewardAd;
 @end
 
 @interface MagicRewardAd : NSObject
@@ -82,6 +88,26 @@ NS_ASSUME_NONNULL_BEGIN
  preset new Controller展示
  */
 - (void)presentShow;
+
+/**
+ 当前控制器添加展示
+ */
+- (void)show:(UIViewController *)controller;
+
+/**
+ preset new Controller展示
+ */
+- (void)presentShow:(UIViewController *)controller;
+
+/**
+ 重设ViewController
+ */
+- (void)resetViewController:(UIViewController *)controller;
+
+/**
+ 重设代理
+ */
+- (void)resetDelegate:(id<MagicRewardAdDelegate> _Nullable)delegate;
 
 /**
  获取广告视图
