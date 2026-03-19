@@ -14,9 +14,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol IMagicSelfRenderFeedData <NSObject>
 - (nullable UIImage *)contentImage;
+- (nullable NSString *)contentImageUrl;
 - (NSInteger)contentImageWidth;
 - (NSInteger)contentImageHeight;
 - (nullable UIImage *)brandIcon;
+- (nullable NSString *)brandIconUrl;
 - (NSInteger)brandIconWidth;
 - (NSInteger)brandIconHeight;
 - (NSString *)brandTitle;
@@ -29,6 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (nullable UIImage *)adIcon;
 - (NSInteger)adIconWidth;
 - (NSInteger)adIconHeight;
+- (nullable NSString *)adIconUrl;
 @end
 
 @protocol MagicSelfRenderFeedAdEventDelegate <NSObject>
