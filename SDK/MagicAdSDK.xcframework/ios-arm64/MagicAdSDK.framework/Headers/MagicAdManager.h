@@ -21,6 +21,12 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)initWithAppId:(NSString *)appId delegate:(id<MagicAdInitDelegate> _Nullable)delegate;
 
 /**
+ 初始化
+ 媒体id初始化
+ **/
++ (void)initWithMediaId:(NSString *)mediaId delegate:(id<MagicAdInitDelegate> _Nullable)delegate;
+
+/**
  获取SDK版本号
  */
 + (NSString *)getSDKVersion;

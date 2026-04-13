@@ -14,11 +14,11 @@
 		</data>
 		<key>Headers/MagicAdManager.h</key>
 		<data>
-		4bKsCI9GOtw0QFCFlowo68ROxW8=
+		MVCj/L2xYfMDYD47rVtsKFgn8/A=
 		</data>
 		<key>Headers/MagicBannerAd.h</key>
 		<data>
-		xGl71MdfrzUxRoM1Q60609nlGwU=
+		yl8mTogxy9hycsCUfkdI+I6GxyI=
 		</data>
 		<key>Headers/MagicBannerCustomExt.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/MagicFeedAd.h</key>
 		<data>
-		RPBCSGcdvszVKN16Kvkzq+0iwSs=
+		/nH1rXxwtUFm4vluwQY02qSc9HA=
 		</data>
 		<key>Headers/MagicFeedCustomExt.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/MagicInterstitialAd.h</key>
 		<data>
-		mCw6iOPHiijgj8owBGjyxOWGWL8=
+		dhBuy6F9BZ1pxz6sKJxzM+OaTiI=
 		</data>
 		<key>Headers/MagicInterstitialCustomExt.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/MagicRewardAd.h</key>
 		<data>
-		DNsUMkjnWyvn4Kw4+ysFVoi9Muw=
+		pu6yhwzn0ns4KbPPmTtT72VtDOE=
 		</data>
 		<key>Headers/MagicRewardCustomExt.h</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/MagicSelfRenderFeedAd.h</key>
 		<data>
-		v1mr4wsZodvv0uIaOUKuTUMEuoI=
+		ZnRcYjbqeY1pqfl2l/H6STTUNSs=
 		</data>
 		<key>Headers/MagicSelfRenderFeedData.h</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/MagicSplashAd.h</key>
 		<data>
-		kECVvQI9ABe6iCeio3DJxxoWKK4=
+		FKKPcr4EFDIJFHO3MDITkIov9qA=
 		</data>
 		<key>Headers/MagicSplashCustomExt.h</key>
 		<data>
@@ -105,22 +105,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4bKsCI9GOtw0QFCFlowo68ROxW8=
+			MVCj/L2xYfMDYD47rVtsKFgn8/A=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ev0QYtgKp54X4reXPygA8na6s2j99zRAybQPDF241GU=
+			VKhBtJ46ipT8SWdtVEHaLqtoh2VCqUYx9mjfaY9tb0Y=
 			</data>
 		</dict>
 		<key>Headers/MagicBannerAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xGl71MdfrzUxRoM1Q60609nlGwU=
+			yl8mTogxy9hycsCUfkdI+I6GxyI=
 			</data>
 			<key>hash2</key>
 			<data>
-			08nHw+Cf4o0Zng4Iqe7r9YKGPDDroUj4zy+PfkEPmeo=
+			OEUSoDbqZehHuAz6JZ/DxhQIhEGjy5i4c3kZQqs2LwA=
 			</data>
 		</dict>
 		<key>Headers/MagicBannerCustomExt.h</key>
@@ -138,11 +138,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RPBCSGcdvszVKN16Kvkzq+0iwSs=
+			/nH1rXxwtUFm4vluwQY02qSc9HA=
 			</data>
 			<key>hash2</key>
 			<data>
-			kUAFIqc3VQIAuiXWWHplP4qEvf7q8I8lGYTyB8s3mYE=
+			Qj6BAObt0csxn997Opywr8OfWrwYaT57RY3c3vbg4VY=
 			</data>
 		</dict>
 		<key>Headers/MagicFeedCustomExt.h</key>
@@ -160,11 +160,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mCw6iOPHiijgj8owBGjyxOWGWL8=
+			dhBuy6F9BZ1pxz6sKJxzM+OaTiI=
 			</data>
 			<key>hash2</key>
 			<data>
-			yV8ktl9JcO3T/5GiU2rkjFuAyIwg4UdRTC4SCUO1hhM=
+			T27wQs0pu+7JIFeCITcQALCGjQRgg1tczPY6OtiZ2/g=
 			</data>
 		</dict>
 		<key>Headers/MagicInterstitialCustomExt.h</key>
@@ -182,11 +182,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DNsUMkjnWyvn4Kw4+ysFVoi9Muw=
+			pu6yhwzn0ns4KbPPmTtT72VtDOE=
 			</data>
 			<key>hash2</key>
 			<data>
-			p39hzwfmqUINIL7UxP+TDD2qtzA57q9DnfT1V9Q8bfU=
+			xa7vxzhP2AdLPMJhrpgvvF2UEPu4sYzI8KcKvlxkKlM=
 			</data>
 		</dict>
 		<key>Headers/MagicRewardCustomExt.h</key>
@@ -204,11 +204,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			v1mr4wsZodvv0uIaOUKuTUMEuoI=
+			ZnRcYjbqeY1pqfl2l/H6STTUNSs=
 			</data>
 			<key>hash2</key>
 			<data>
-			0CYCGCynJ/+hxRIu2F09Y2BakkyvX14aizdXPgve4n0=
+			KrjuA4UVOro4Cbus/Zt6OCNvqBLHjzP1ORrIqVMiyvk=
 			</data>
 		</dict>
 		<key>Headers/MagicSelfRenderFeedData.h</key>
@@ -226,11 +226,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kECVvQI9ABe6iCeio3DJxxoWKK4=
+			FKKPcr4EFDIJFHO3MDITkIov9qA=
 			</data>
 			<key>hash2</key>
 			<data>
-			RHJ2PlLzKaciZ9dPLp0cRjp1nJauqkJ6c2ZkbHUkv9w=
+			WEQxGLCRFH+uxv3GUHDUHNY+B1X90C2wgZSjCxOunIY=
 			</data>
 		</dict>
 		<key>Headers/MagicSplashCustomExt.h</key>

@@ -154,6 +154,20 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void) loadCache:(NSInteger)count delegate:(id<MagicAdLoadDelegate> _Nullable)delegate;
 
+/**
+ 竞价失败回调
+ winPrice 整数分
+ reason
+      * 101：出价低
+      * 102：超时
+      * 103：广告主被屏蔽
+      * 104：文案被屏蔽
+      * 105：素材被屏蔽
+      * 106：媒体的其他原因
+      * 107：内部问题或报错
+ */
+- (void) lossTracker:(NSInteger) winPrice reason:(NSString *)reason;
+
 @end
 
 NS_ASSUME_NONNULL_END
