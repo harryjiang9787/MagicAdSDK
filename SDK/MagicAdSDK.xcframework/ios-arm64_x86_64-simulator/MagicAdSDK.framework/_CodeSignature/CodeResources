@@ -14,7 +14,11 @@
 		</data>
 		<key>Headers/MagicAdManager.h</key>
 		<data>
-		MVCj/L2xYfMDYD47rVtsKFgn8/A=
+		CC4L8+vqV9ysG6Cfj2WyvbqaqYc=
+		</data>
+		<key>Headers/MagicAdSDK.h</key>
+		<data>
+		EaXlN79jhPqlAn/3GRP/PburkSo=
 		</data>
 		<key>Headers/MagicBannerAd.h</key>
 		<data>
@@ -66,11 +70,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gz4XFL4t/q0fgcu955fMeHu6CHU=
+		2JEXxGnXvhX5sz+ZcH0fpLapiS8=
 		</data>
-		<key>PrivacyInfo.xcprivacy</key>
+		<key>Modules/module.modulemap</key>
 		<data>
-		XKF4zsa3BRpp39pcAsR3WU6MdZg=
+		xliSkKr3jigmgkrifoluM5uNGYE=
 		</data>
 		<key>debug.lua</key>
 		<data>
@@ -105,11 +109,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MVCj/L2xYfMDYD47rVtsKFgn8/A=
+			CC4L8+vqV9ysG6Cfj2WyvbqaqYc=
 			</data>
 			<key>hash2</key>
 			<data>
-			VKhBtJ46ipT8SWdtVEHaLqtoh2VCqUYx9mjfaY9tb0Y=
+			x4a1niGBJYNCbtOJUlXBNebtPrQBl4X3RNX/eJ70fLM=
+			</data>
+		</dict>
+		<key>Headers/MagicAdSDK.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EaXlN79jhPqlAn/3GRP/PburkSo=
+			</data>
+			<key>hash2</key>
+			<data>
+			9Xt7Ji88iEfTjDLkNfe6wneMIVZURXL46BN1Vadh9bQ=
 			</data>
 		</dict>
 		<key>Headers/MagicBannerAd.h</key>
@@ -244,15 +259,15 @@
 			/E6THlqlfjVY7QLJLsdHKlFnsPoD8677zj9QZPfFX4Q=
 			</data>
 		</dict>
-		<key>PrivacyInfo.xcprivacy</key>
+		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XKF4zsa3BRpp39pcAsR3WU6MdZg=
+			xliSkKr3jigmgkrifoluM5uNGYE=
 			</data>
 			<key>hash2</key>
 			<data>
-			tB2JopxMzNuTzEpCuFm1z2P8JqJprLZ3Nu/MSzjorCM=
+			8xQzURz/jFQOluysd+WOgrlAgREYPCXXnLqNjSQnu1g=
 			</data>
 		</dict>
 		<key>debug.lua</key>

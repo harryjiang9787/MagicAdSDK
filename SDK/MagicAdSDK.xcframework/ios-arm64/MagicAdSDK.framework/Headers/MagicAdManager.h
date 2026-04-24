@@ -54,6 +54,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)setTestEnvironment:(BOOL) isTest;
 
+/**
+ 设置debug模式
+ */
++ (void)setDebugEnable:(BOOL)isDebug;
+
 @end
 
 NS_ASSUME_NONNULL_END
