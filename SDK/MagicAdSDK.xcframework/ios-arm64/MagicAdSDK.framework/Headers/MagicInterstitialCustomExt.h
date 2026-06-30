@@ -19,5 +19,9 @@ extern NSString *const MagicInterstitialExtraBidFloorKey;
  */
 extern NSString *const MagicInterstitialExtraVideoMuteKey;
 
+/**
+ 是否手动关闭广告，默认0，0为finish后自动销毁，1为finish后不自动销毁，需要开发者在finish回调中手动调用destroy
+ */
+extern NSString *const MagicInterstitialExtraManualCloseKey;
 
 #endif /* MagicInterstitialCustomExt_h */
