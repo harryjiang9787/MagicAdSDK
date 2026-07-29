@@ -10,6 +10,7 @@
 #import <UIKit/UIKit.h>
 #import <MagicAdSDK/MagicAdError.h>
 #import <MagicAdSDK/MagicAdDelegate.h>
+#import <MagicAdSDK/MagicAdPrivacyConfig.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -21,10 +22,20 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)initWithAppId:(NSString *)appId delegate:(id<MagicAdInitDelegate> _Nullable)delegate;
 
 /**
+ 初始化。config 可为 nil
+ */
++ (void)initWithAppId:(NSString *)appId config:(MagicAdPrivacyConfig * _Nullable)config delegate:(id<MagicAdInitDelegate> _Nullable)delegate;
+
+/**
  初始化
  媒体id初始化
  **/
 + (void)initWithMediaId:(NSString *)mediaId delegate:(id<MagicAdInitDelegate> _Nullable)delegate;
+
+/**
+ 媒体 ID 初始化。config 可为 nil
+ */
++ (void)initWithMediaId:(NSString *)mediaId config:(MagicAdPrivacyConfig * _Nullable)config delegate:(id<MagicAdInitDelegate> _Nullable)delegate;
 
 /**
  获取SDK版本号

@@ -14,11 +14,15 @@
 		</data>
 		<key>Headers/MagicAdManager.h</key>
 		<data>
-		CC4L8+vqV9ysG6Cfj2WyvbqaqYc=
+		Nm1oLdegoLzGqhP8bw/WFBzvRwg=
+		</data>
+		<key>Headers/MagicAdPrivacyConfig.h</key>
+		<data>
+		Y0m9dbKRvlojMhxfZnkjqHTnHCE=
 		</data>
 		<key>Headers/MagicAdSDK.h</key>
 		<data>
-		EaXlN79jhPqlAn/3GRP/PburkSo=
+		atvLrKbISHtDQ+tFKHLT0bHS8vQ=
 		</data>
 		<key>Headers/MagicBannerAd.h</key>
 		<data>
@@ -109,22 +113,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CC4L8+vqV9ysG6Cfj2WyvbqaqYc=
+			Nm1oLdegoLzGqhP8bw/WFBzvRwg=
 			</data>
 			<key>hash2</key>
 			<data>
-			x4a1niGBJYNCbtOJUlXBNebtPrQBl4X3RNX/eJ70fLM=
+			/LDBm4+AcNixQnW/BjmlzmFxupqqo6P6ZraXXxkkNpA=
+			</data>
+		</dict>
+		<key>Headers/MagicAdPrivacyConfig.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Y0m9dbKRvlojMhxfZnkjqHTnHCE=
+			</data>
+			<key>hash2</key>
+			<data>
+			gn9GGzIb5UJQGf7vw7tx+8SVdHpFd+8BUTcVkajBOk0=
 			</data>
 		</dict>
 		<key>Headers/MagicAdSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EaXlN79jhPqlAn/3GRP/PburkSo=
+			atvLrKbISHtDQ+tFKHLT0bHS8vQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			9Xt7Ji88iEfTjDLkNfe6wneMIVZURXL46BN1Vadh9bQ=
+			pCGr0T3Z2VvMmDQQl/kYv+DZyOV9Wp53/zc3vGeOWtk=
 			</data>
 		</dict>
 		<key>Headers/MagicBannerAd.h</key>

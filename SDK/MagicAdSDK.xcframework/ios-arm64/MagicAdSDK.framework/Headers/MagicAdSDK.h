@@ -8,6 +8,7 @@
 #ifndef MagicAdSDK_h
 #define MagicAdSDK_h
 #import <MagicAdSDK/MagicAdManager.h>
+#import <MagicAdSDK/MagicAdPrivacyConfig.h>
 #import <MagicAdSDK/MagicBannerAd.h>
 #import <MagicAdSDK/MagicBannerCustomExt.h>
 #import <MagicAdSDK/MagicFeedAd.h>
