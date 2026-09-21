@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MagicAdSDK'
-  s.version          = '0.0.72'
+  s.version          = '0.0.73'
   s.summary          = 'MagicAdSDK'
   s.description      = <<-DESC
   杰蛙广告SDK;

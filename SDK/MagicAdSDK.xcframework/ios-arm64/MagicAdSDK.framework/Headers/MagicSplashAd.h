@@ -68,6 +68,22 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWithAdId:(NSString*)tagId size:(CGSize)size extra:(NSDictionary<NSString *,NSString *> *)extra controller:(UIViewController * _Nullable)controller delegate:(id<MagicSplashAdDelegate> _Nullable)delegate;
 
 /**
+ 初始化（底部自定义视图）
+ 屏幕尺寸由SDK内部获取，广告请求高度 = 屏幕高度 - bottomView高度；
+ 展示时广告顶部对齐，bottomView直接添加在广告视图底部，总高度 = 广告返回高度 + bottomView高度
+ bottomView可为nil，为nil时等同于满屏请求
+ **/
+- (instancetype)initWithAdId:(NSString*)tagId bottomView:(UIView * _Nullable)bottomView controller:(UIViewController * _Nullable)controller delegate:(id<MagicSplashAdDelegate> _Nullable)delegate;
+
+/**
+ 初始化（底部自定义视图，带extra）
+ 屏幕尺寸由SDK内部获取，广告请求高度 = 屏幕高度 - bottomView高度；
+ 展示时广告顶部对齐，bottomView直接添加在广告视图底部，总高度 = 广告返回高度 + bottomView高度
+ bottomView可为nil，为nil时等同于满屏请求
+ **/
+- (instancetype)initWithAdId:(NSString*)tagId bottomView:(UIView * _Nullable)bottomView extra:(NSDictionary<NSString *,NSString *> *)extra controller:(UIViewController * _Nullable)controller delegate:(id<MagicSplashAdDelegate> _Nullable)delegate;
+
+/**
  加载广告
  */
 - (void)loadAd;
@@ -81,6 +97,12 @@ NS_ASSUME_NONNULL_BEGIN
  展示
  */
 - (void)show:(UIViewController *)controller;
+
+/**
+ 展示（添加到window上）
+ window为nil时优先取controller所在的window，其次取keyWindow
+ */
+- (void)showWindow:(UIWindow * _Nullable)window;
 
 /**
  重设ViewController
