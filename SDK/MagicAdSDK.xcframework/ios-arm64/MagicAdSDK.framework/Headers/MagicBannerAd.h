@@ -27,14 +27,8 @@ NS_ASSUME_NONNULL_BEGIN
 //广告按钮点击后回调
 -(void)onMgcBannerAdClose:(MagicBannerAd *)bannerAd;
 
-//广告展示回调
--(void)onMgcBannerAdShow:(MagicBannerAd *)bannerAd;
-
 //广告展示曝光回调
 -(void)onMgcBannerAdDidExposure:(MagicBannerAd *)bannerAd;
-
-//广告隐藏回调
--(void)onMgcBannerAdHidden:(MagicBannerAd *)bannerAd;
 
 //广告数据回调
 -(void)onMgcBannerAdData:(MagicBannerAd *)bannerAd data:(NSDictionary *)data;

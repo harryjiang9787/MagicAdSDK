@@ -28,14 +28,8 @@ NS_ASSUME_NONNULL_BEGIN
 //广告点击跳过后回调
 -(void)onMgcSplashAdSkip:(MagicSplashAd *)splashAd;
 
-//广告展示回调
--(void)onMgcSplashAdShow:(MagicSplashAd *)splashAd;
-
 //广告真实曝光回调
 -(void)onMgcSplashAdDidExposure:(MagicSplashAd *)splashAd;
-
-//广告隐藏回调
--(void)onMgcSplashAdHidden:(MagicSplashAd *)splashAd;
 
 //广告请求超时
 -(void)onMgcSplashAdTimeOut:(MagicSplashAd *)splashAd;

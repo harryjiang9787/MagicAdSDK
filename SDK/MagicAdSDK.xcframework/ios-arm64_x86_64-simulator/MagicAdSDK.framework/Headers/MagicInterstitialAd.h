@@ -28,14 +28,8 @@ NS_ASSUME_NONNULL_BEGIN
 //广告点击关闭后回调
 -(void)onMgcInterstitialAdClose:(MagicInterstitialAd *)interstitialAd;
 
-//广告展示展示回调
--(void)onMgcInterstitialAdShow:(MagicInterstitialAd *)interstitialAd;
-
 //广告展示曝光回调
 -(void)onMgcInterstitialAdDidExposure:(MagicInterstitialAd *)interstitialAd;
-
-//广告隐藏回调
--(void)onMgcInterstitialAdHidden:(MagicInterstitialAd *)interstitialAd;
 
 //广告数据回调
 -(void)onMgcInterstitialAdData:(MagicInterstitialAd *)interstitialAd data:(NSDictionary *)data;

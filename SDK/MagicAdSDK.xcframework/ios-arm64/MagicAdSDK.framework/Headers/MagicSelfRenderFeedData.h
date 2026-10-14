@@ -45,18 +45,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)onSelfRenderFeedAdClick:(MagicSelfRenderFeedAd *)feedAd;
 
 /**
- * 广告展示事件
- * @param feedAd 信息流广告对象
- */
-- (void)onSelfRenderFeedAdShow:(MagicSelfRenderFeedAd *)feedAd;
-
-/**
- * 广告隐藏事件
- * @param feedAd 信息流广告对象
- */
-- (void)onSelfRenderFeedAdHidden:(MagicSelfRenderFeedAd *)feedAd;
-
-/**
  * 广告曝光确认事件
  * @param feedAd 信息流广告对象
  * @param confirm 是否确认曝光

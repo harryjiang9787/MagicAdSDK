@@ -28,14 +28,8 @@ NS_ASSUME_NONNULL_BEGIN
 //广告点击关闭后回调
 -(void)onMgcRewardAdClose:(MagicRewardAd *)rewardAd;
 
-//广告展示展示回调
--(void)onMgcRewardAdShow:(MagicRewardAd *)rewardAd;
-
 //广告展示曝光回调
 -(void)onMgcRewardAdDidExposure:(MagicRewardAd *)rewardAd;
-
-//广告隐藏回调
--(void)onMgcRewardAdHidden:(MagicRewardAd *)rewardAd;
 
 //广告播放完成
 -(void)onMgcRewardAdDidFinish:(MagicRewardAd *)rewardAd;

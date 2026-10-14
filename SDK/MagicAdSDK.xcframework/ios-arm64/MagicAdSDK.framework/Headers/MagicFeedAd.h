@@ -28,14 +28,8 @@ NS_ASSUME_NONNULL_BEGIN
 //广告按钮点击关闭后回调
 -(void)onMgcFeedAdClose:(MagicFeedAd *)feedAd;
 
-//广告展示回调
--(void)onMgcFeedAdShow:(MagicFeedAd *)feedAd;
-
 //广告展示曝光回调
 -(void)onMgcFeedAdDidExposure:(MagicFeedAd *)feedAd;
-
-//广告隐藏回调
--(void)onMgcFeedAdHidden:(MagicFeedAd *)feedAd;
 
 //广告数据回调
 -(void)onMgcFeedAdData:(MagicFeedAd *)feedAd data:(NSDictionary *)data;
