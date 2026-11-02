@@ -24,4 +24,12 @@ extern NSString *const MagicInterstitialExtraVideoMuteKey;
  */
 extern NSString *const MagicInterstitialExtraManualCloseKey;
 
+/**
+ 是否点击后自动关闭广告，默认0不关闭，1为点击后自动关闭
+ 说明：
+ - 点击后直接拉起其它App（非下载且打开成功）：立即关闭广告
+ - 跳转App Store或内置落地页：打开页面时不关闭，页面关闭后再关闭
+ */
+extern NSString *const MagicInterstitialExtraClickCloseKey;
+
 #endif /* MagicInterstitialCustomExt_h */

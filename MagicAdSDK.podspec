@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MagicAdSDK'
-  s.version          = '0.0.75'
+  s.version          = '0.0.78'
   s.summary          = 'MagicAdSDK'
   s.description      = <<-DESC
   杰蛙广告SDK;
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/harryjiang9787/MagicAdSDK.git'
   s.source           = { :git => 'https://github.com/harryjiang9787/MagicAdSDK.git', :tag => s.version.to_s }
   s.platform         = :ios, "10.0"  
-  s.frameworks = 'AdSupport', 'CoreGraphics', 'UIKit', 'Foundation','AVFoundation', 'CoreTelephony', 'SystemConfiguration','WebKit','ImageIO','CoreFoundation','CoreLocation','StoreKit'
+  s.frameworks = 'AdSupport', 'CoreGraphics', 'UIKit', 'Foundation','AVFoundation', 'CoreTelephony', 'SystemConfiguration','WebKit','ImageIO','CoreFoundation','CoreLocation','StoreKit','CoreMotion'
   s.libraries  = 'c++','sqlite3'
   s.static_framework = true
   

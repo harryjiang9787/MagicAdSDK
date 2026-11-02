@@ -99,6 +99,18 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSInteger)getBidPrice;
 
 /**
+ 获取素材id（创意id crid）
+ 广告ready时返回，否则返回"0"
+ */
+- (NSString *)getMaterialId;
+
+/**
+ 获取素材链接
+ 广告ready时返回，图片广告返回图片链接，视频广告返回视频链接，否则返回空字符串
+ */
+- (NSString *)getMaterialUrl;
+
+/**
  广告是否超时
  */
 - (BOOL) isDataTimeout;
