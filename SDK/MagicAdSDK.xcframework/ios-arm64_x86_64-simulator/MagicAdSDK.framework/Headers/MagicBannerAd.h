@@ -42,6 +42,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MagicBannerAd : NSObject
 
+/**
+ 是否禁用缓存。
+ YES = 直投模式：不读表、不写表、不比价，直接使用本次网络请求的广告；
+ NO  = 竞价模式：每次请求都入表参与比价。
+ 为兼容旧版本保留；SDK 内部据此映射到缓存模式。
+ **/
 @property (nonatomic, assign)BOOL disableCache;
 
 /**
